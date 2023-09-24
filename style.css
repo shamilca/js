@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1#heading{
+    font-size: 50px;
+    text-align: center;
+    font-family: helvetica;
+    margin: 70px 0 100px;
+}
+section#buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+section#buttons div.button{
+    width: 7%;
+    border: 2px solid black;
+    cursor: pointer;
+}
+section#buttons div.button h3{
+    font-size: 20px;
+    font-family: helvetica;
+    margin: 20px;
+}
+section#buttons div.button img{
+    width: 100%;
+}
+
+h4.footer{
+    text-align: center;
+    font-family: helvetica;
+    font-size: 25px;
+    margin-top: 100px;
+}
